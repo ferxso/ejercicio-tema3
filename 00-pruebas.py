@@ -9,10 +9,9 @@ suma(1, 2, 3)
 
 
 class Coche:   
-
-    def agregar_puerta():
-        puertas = 3
+    puertas = 0
+    def agregar_puerta(puertas):
         puertas += 1
         print('cantidad de puertas:' , puertas)
 
-    agregar_puerta()
+    agregar_puerta(3)
